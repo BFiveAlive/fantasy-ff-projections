@@ -1,0 +1,23 @@
+# ---- credentials: never commit ----
+.env
+.env.*
+!.env.example
+.yahoo_token.json
+.yahoo_cookies.txt
+
+# ---- private league data and derived output ----
+# Rosters, team names and manager names belong to a private league.
+data/
+league_report.html
+*.log
+gap_model.json
+variance_model.json
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+raw/
+*.xlsx
